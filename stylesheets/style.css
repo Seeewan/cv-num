@@ -1,0 +1,183 @@
+/*
+   Nealiah
+   https://nealiah.fr :)
+ */
+
+.main{
+    background: white;
+}
+
+#serverIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#serverIcon>i{
+    text-align: center;
+    font-size: 200px;
+    color: white;
+}
+
+.client{
+    transition: 0.3s;
+    height: 290px;
+}
+
+.client>.img-frame{
+    display: flex;
+    align-items:center;
+    height: 200px;
+}
+
+.client>img{
+    height: auto;
+}
+
+.client:hover{
+    transform: scale(1.05);
+}
+
+
+.client > .title{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+}
+
+hr{
+    border: 1px;
+}
+
+.footer{
+    position: relative;
+}
+
+.description>h4{
+    margin-bottom: 0;
+}
+
+.p-3{
+    padding-bottom: 0 !important;
+}
+
+#homeTitle{
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 1.15rem;
+}
+
+@media(max-width: 1000px){
+    #aboutUs2>.container{
+        margin-bottom: 0 !important;
+    }
+}
+
+.offer-head{
+    background: linear-gradient(310deg, #7928CA 0%, #FF0080 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    height: 250px;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.offer-head>img{
+    opacity: 0.3;
+    padding-bottom: 10px;
+}
+
+.offer{
+    height: 100%;
+}
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline::before{
+    display: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+
+.card-img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.project-card{
+    transition: 0.75s;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.lg-backdrop{
+    z-index: 1050 !important;
+}
+
+.gallery-image{
+    padding-bottom: 15px;
+    transition: 1s;
+}
+
+.gallery-image:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.gallery-image>img{
+    border-radius: 10px;
+}
+
+.project{
+    color: black;
+}
+
+.skill-icon>img{
+    width: 40px;
+    margin: 10px;
+}
+
+.company-icon>img{
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+}
+.social-icon{
+    padding-right: 20px;
+    font-size: 30px;
+}
